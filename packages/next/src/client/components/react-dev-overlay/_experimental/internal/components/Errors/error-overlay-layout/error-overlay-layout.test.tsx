@@ -1,9 +1,9 @@
 /**
  * @jest-environment jsdom
  */
+/* eslint-disable import/no-extraneous-dependencies */
 import { render, screen, fireEvent, act } from '@testing-library/react'
-import { ErrorOverlayLayout } from './ErrorOverlayLayout'
-import '@testing-library/jest-dom'
+import { ErrorOverlayLayout } from './error-overlay-layout'
 
 // Mock maintain--tab-focus module
 jest.mock('../../../components/Overlay/maintain--tab-focus', () => ({
